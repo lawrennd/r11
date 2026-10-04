@@ -12,6 +12,7 @@
     address = {Bellevue, WA, USA},
     conference_url = {https://www.auai.org/uai2013/},
     conference_number = {29},
+    volume = {r11},
     published = {2026-10-04},
     firstpublished = {2013-07-12},
 }
@@ -84,7 +85,7 @@ year = {2013}
 abstract = {This paper shows that causal model discov- ery is not an NP-hard problem, in the sense that for sparse graphs bounded by node de- gree k the sound and complete causal model can be obtained in worst case order N 2(k+2) independence tests, even when latent vari- ables and selection bias may be present. We present a modification of the well-known FCI algorithm that implements the method for an independence oracle, and suggest improve- ments for sample/real-world data versions. It does not contradict any known hardness re- sults, and does not solve an NP-hard prob- lem: it just proves that sparse causal discov- ery is perhaps more complicated, but not as hard as learning minimal Bayesian networks.},
 author = {Claassen, Tom and Mooij, Joris and Heskes, Tom},
 pages = {75-84},
-title = {Learning Sparse Causal Models is not NP-hard},
+title = {Learning Sparse Causal Models is not {NP}-hard},
 year = {2013}
 }
 
@@ -108,7 +109,7 @@ year = {2013}
 abstract = {We consider the problem of maximum a pos- teriori (MAP) inference in discrete graphical models. We present a parallel MAP infer- ence algorithm called Bethe-ADMM based on two ideas: tree-decomposition of the graph and the alternating direction method of multi- pliers (ADMM). However, unlike the standard ADMM, we use an inexact ADMM augmented with a Bethe-divergence based proximal func- tion, which makes each subproblem in ADMM easy to solve in parallel using the sum-product algorithm. We rigorously prove global conver- gence of Bethe-ADMM. The proposed algorithm is extensively evaluated on both synthetic and real datasets to illustrate its effectiveness. Fur- ther, the parallel Bethe-ADMM is shown to scale almost linearly with increasing number of cores.},
 author = {Fu, Qiang and Wang, Huahua and Banerjee, Arindam},
 pages = {105-114},
-title = {Bethe-ADMM for Tree Decomposition based Parallel {MAP} Inference},
+title = {{B}ethe-{ADMM} for Tree Decomposition based Parallel {MAP} Inference},
 year = {2013}
 }
 
@@ -220,7 +221,7 @@ year = {2013}
 abstract = {Finding the most likely (MAP) configuration of a Markov random field (MRF) is NP-hard in general. A promising, recent technique is to reduce the problem to finding a max- imum weight stable set (MWSS) on a de- rived weighted graph, which if perfect, al- lows inference in polynomial time. We de- rive new results for this approach, including a general decomposition theorem for MRFs of any order and number of labels, extensions of results for binary pairwise models with submodular cost functions to higher order, and an exact characterization of which bi- nary pairwise MRFs can be eﬃciently solved with this method. This defines the power of the approach on this class of models, im- proves our toolbox and expands the range of tractable models.},
 author = {Weller, Adrian and Jebara, Tony},
 pages = {242-251},
-title = {On {MAP} Inference by MWSS on Perfect Graphs},
+title = {On {MAP} Inference by {MWSS} on Perfect Graphs},
 year = {2013}
 }
 
@@ -364,7 +365,7 @@ year = {2013}
 abstract = {This paper considers the problem of learn- ing the parameters in Bayesian networks of discrete variables with known structure and hidden variables. Previous approaches in these settings typically use expectation maximization; when the network has high treewidth, the required expectations might be approximated using Monte Carlo or vari- ational methods. We show how to avoid inference altogether during learning by giv- ing a polynomial-time algorithm based on the method-of-moments, building upon re- cent work on learning discrete-valued mix- ture models. In particular, we show how to learn the parameters for a family of bipartite noisy-or Bayesian networks. In our experi- mental results, we demonstrate an applica- tion of our algorithm to learning QMR-DT, a large Bayesian network used for medical di- agnosis. We show that it is possible to fully learn the parameters of QMR-DT even when only the findings are observed in the training data (ground truth diseases unknown).},
 author = {Halpern, Yonatan and Sontag, David},
 pages = {422-431},
-title = {Unsupervised Learning of Noisy-OR {B}ayesian Networks},
+title = {Unsupervised Learning of Noisy-{OR} {B}ayesian Networks},
 year = {2013}
 }
 
@@ -388,7 +389,7 @@ year = {2013}
 abstract = {We present a very general approach to learn- ing the structure of causal models based on d-separation constraints, obtained from any given set of overlapping passive observational or experimental data sets. The procedure al- lows for both directed cycles (feedback loops) and the presence of latent variables. Our ap- proach is based on a logical representation of causal pathways, which permits the integra- tion of quite general background knowledge, and inference is performed using a Boolean satisfiability (SAT) solver. The procedure is complete in that it exhausts the available in- formation on whether any given edge can be determined to be present or absent, and re- turns ``unknown'' otherwise. Many existing constraint-based causal discovery algorithms can be seen as special cases, tailored to cir- cumstances in which one or more restricting assumptions apply. Simulations illustrate the effect of these assumptions on discovery and how the present algorithm scales.},
 author = {Hyttinen, Antti and Hoyer, Patrik and Eberhardt, Frederick and J{\"a}rvisalo, Matti},
 pages = {451-460},
-title = {Discovering Cyclic Causal Models with Latent Variables: A General SAT-Based Procedure},
+title = {Discovering Cyclic Causal Models with Latent Variables: A General {SAT}-Based Procedure},
 year = {2013}
 }
 
@@ -516,7 +517,7 @@ year = {2013}
 abstract = {We propose a probabilistic model to infer supervised latent variables in the Hamming space from observed data. Our model al- lows simultaneous inference of the number of binary latent variables, and their values. The latent variables preserve neighbourhood structure of the data in a sense that objects in the same semantic concept have similar latent values, and objects in different con- cepts have dissimilar latent values. We for- mulate the supervised infinite latent variable problem based on an intuitive principle of pulling objects together if they are of the same type, and pushing them apart if they are not. We then combine this principle with a flexible Indian Buffet Process prior on the latent variables. We show that the inferred supervised latent variables can be directly used to perform a nearest neighbour search for the purpose of retrieval. We introduce a new application of dynamically extending hash codes, and show how to effectively cou- ple the structure of the hash codes with con- tinuously growing structure of the neighbour- hood preserving infinite latent feature space.},
 author = {Quadrianto, Novi and Sharmanska, Viktoriia and Knowles, David A. and Ghahramani, Zoubin},
 pages = {608-617},
-title = {The Supervised IBP: Neighbourhood Preserving Infinite Latent Feature Models},
+title = {The Supervised {IBP}: Neighbourhood Preserving Infinite Latent Feature Models},
 year = {2013}
 }
 
@@ -524,7 +525,7 @@ year = {2013}
 abstract = {A recent result has demonstrated that the Bethe partition function always lower bounds the true partition function of binary, log- supermodular graphical models. We demon- strate that these results can be extended to other interesting classes of graphical models that are not necessarily binary or log-supermodular: the ferromagnetic Potts model with a uniform external field and its generalizations and special classes of weighted graph homomorphism problems.},
 author = {Ruozzi, Nicholas},
 pages = {618-627},
-title = {Beyond Log-Supermodularity:  Lower Bounds and the Bethe Partition Function},
+title = {Beyond Log-Supermodularity:  Lower Bounds and the {B}ethe Partition Function},
 year = {2013}
 }
 
@@ -564,7 +565,7 @@ year = {2013}
 abstract = {We tackle the challenge of eﬃciently learning the structure of expressive multivariate real- valued densities of copula graphical models. We start by theoretically substantiating the conjecture that for many copula families the magnitude of Spearman's rank correlation coeﬃcient is monotonic in the expected con- tribution of an edge in network, namely the negative copula entropy. We then build on this theory and suggest a novel Bayesian ap- proach that makes use of a prior over values of Spearman's rho for learning copula-based models that involve a mix of copula families. We demonstrate the generalization effective- ness of our highly eﬃcient approach on siz- able and varied real-life datasets.},
 author = {Tenzer, Yaniv and Elidan, Gal},
 pages = {668-677},
-title = {Speedy Model Selection (SMS) for Copula Models},
+title = {Speedy Model Selection ({SMS}) for Copula Models},
 year = {2013}
 }
 
